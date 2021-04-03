@@ -18,7 +18,7 @@ Sua missão é criar nesse repositório a sua páginal pessoal. Ela será seu cu
 
 Para enviar seus commits pro repositório, agora você vai precisar fazer um Pull Request!
 
-1. Criar um novo branch: angelica no repositório people
+1. Criar um novo branch: `seu-nome`
 2. Envie seus commits pro github NESSE branch
-3. Crie uma Pull Request (PR) do branch angelica pro branch main
+3. Crie uma Pull Request (PR) do branch `seu-nome` pro branch `main`
 4. Seu código será revisado na PR por um dos monitores e só depois de aprovado ele será juntado (merge) ao branch main
