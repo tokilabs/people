@@ -1,0 +1,8 @@
+body { 
+    @font-face {
+        font-family: aller-regular;
+        src: url(fontes/Aller_rg.ttf);
+    }
+header { 
+    font-size: 700px;
+}
