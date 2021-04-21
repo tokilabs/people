@@ -7,6 +7,10 @@
     src: url(fontes/Aller_Lt.ttf);
 }
 
+*{
+    box-sizing: border-box;
+}
+
 body {
     font-family: aller;
     color:#6f6f6e;
@@ -16,7 +20,6 @@ body {
 
 h1 { 
     font-size: 40pt;
-    padding-bottom: 0%;
 }
 
 h3 {
@@ -52,11 +55,12 @@ section.esquerda {
     width: 50%;
     float: left;
     height: 100%;
+    padding-right: 2em;
 }
 
 section.direita {
     border-left: 1px solid;/* Adiciona borda esquerda na div como ser fosse uma linha.*/
     box-sizing: border-box;
-    padding-left: 1cm;
+    padding-left: 2em;
    }
 
