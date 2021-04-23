@@ -20,12 +20,26 @@ body {
 
 h1 { 
     font-size: 40pt;
+    margin-bottom: 0em;
+    padding-bottom: 0.3em;
 }
 
 h3 {
     font-family: aller-lt;
     font-size: 12pt;
-    padding-top: -30%;
+    margin-bottom: 3em;
+    margin-top: 0em;
+    padding-top: 0em;
+}
+
+h5 {
+    font-family: aller-lt;
+    padding-top: 0em;
+}
+
+h4 {
+    padding-bottom: 0em;
+    margin-bottom: 0em;
 }
 
 header {
