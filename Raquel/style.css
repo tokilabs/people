@@ -7,6 +7,11 @@
     src: url(fontes/Aller_Lt.ttf);
 }
 
+@font-face {
+    font-family: aller-Ltlt;
+    src: url(fontes/Aller_LtIt.ttf);
+}
+
 *{
     box-sizing: border-box;
 }
@@ -33,18 +38,43 @@ h3 {
 }
 
 h5 {
-    font-family: aller-lt;
-    padding-top: 0em;
+    font-family: aller-Ltlt;
+    padding-top: 1em;
 }
 
 h4 {
-    padding-bottom: 0em;
-    margin-bottom: 0em;
+    padding-bottom: 1em;
+    margin-bottom: 2em;
+}
+
+nav {
+    float: right;
+    padding-top: 0em;
 }
 
 header {
     padding-top: 1em;
     padding-left: 1em;
+}
+
+#perfil {
+    width: 99%;
+}
+
+hr::after { 
+    content: "";
+    position: absolute;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    width: 8px;
+    height: 8px;
+    justify-content: right;
+}
+
+p { 
+    padding-bottom: 2em;
 }
 
 hr {
