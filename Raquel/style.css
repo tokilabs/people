@@ -16,6 +16,38 @@
     box-sizing: border-box;
 }
 
+div.nome {
+    display?: block;
+    float: left;
+    width: 60%;
+
+}
+
+div.contato {
+    display:block;
+    float: right;
+    padding-top: 0px;
+    margin: 0px;
+    width: 30%;
+}
+
+ul {
+    display: block;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    padding-top: 1em;
+    padding-left: 1em;
+    background-color: red;
+}
+
+#perfil {
+    width: 99%;
+}
+
 body {
     font-family: aller;
     color:#6f6f6e;
@@ -28,6 +60,8 @@ h1 {
     margin-bottom: 0em;
     padding-bottom: 0.3em;
 }
+
+
 
 h3 {
     font-family: aller-lt;
@@ -47,24 +81,9 @@ h4 {
     margin-bottom: 2em;
 }
 
-nav {
-    display:block;
-    float: right;
-    padding-top: 0em;
-}
-
-header {
-    padding-top: 1em;
-    padding-left: 1em;
-}
-
-#perfil {
-    width: 99%;
-}
-
 hr::after { 
     content: "";
-    display:inline;
+    display: inline;
     position: absolute;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
@@ -102,6 +121,10 @@ section.esquerda {
     float: left;
     height: 100%;
     padding-right: 2em;
+}
+
+.habilidade {
+    padding-bottom: 2em;
 }
 
 section.direita {
