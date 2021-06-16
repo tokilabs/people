@@ -114,7 +114,7 @@ hr {
     border-top: 1px solid #6f6f6e
 }
 
-.linha {
+.container {
     display: flex;
     flex-flow: row wrap;
 }
@@ -139,3 +139,15 @@ section.colunaHabilidades {
     width: 50%
    }
 
+.line {
+    height: 2px;
+    color:#6f6f6e
+}
+
+.square {
+    width: 16px;
+    height: 16px;
+    border: 2px solid #6f6f6e;
+    float: right;
+    margin-top: -8px;
+}
