@@ -17,42 +17,53 @@
 }
 
 div.nome {
-    display?: block;
-    float: left;
+    display:flex;
+    flex: 2;
+    flex-direction: column;
     width: 60%;
-
 }
 
 div.contato {
-    display:block;
+    display:flex;
+    flex: 2;
+    flex-direction: column wrap;
     float: right;
+    justify-content: flex-end;
     padding-top: 0px;
     margin: 0px;
     width: 30%;
 }
 
 ul {
-    display: block;
+    display:flex;
+    flex-direction: column wrap;
     list-style: none;
     padding: 0px;
     margin: 0px;
 }
 
 header {
+    display: flex;
     padding-top: 1em;
     padding-left: 1em;
-    background-color: red;
+}
+
+img {
+    width: 50px;
+    height: 40px;
 }
 
 #perfil {
-    width: 99%;
+    display: block;
+    width: 98%;
+    justify-content: right;
 }
 
 body {
     font-family: aller;
     color:#6f6f6e;
-    padding-left: 1cm;
-    padding-right: 1cm;
+    padding-left: 1px;
+    padding-right: 1px;
 }
 
 h1 { 
@@ -108,15 +119,8 @@ hr {
     flex-flow: row wrap;
 }
 
-.direita {
-    width: 50%;
-}
-
-.esquerda {
-    width: 50%;
-}
-
-section.esquerda { 
+section.colunaExperiencia { 
+    display: block;
     width: 50%;
     float: left;
     height: 100%;
@@ -127,9 +131,11 @@ section.esquerda {
     padding-bottom: 2em;
 }
 
-section.direita {
+section.colunaHabilidades {
     border-left: 1px solid;/* Adiciona borda esquerda na div como ser fosse uma linha.*/
     box-sizing: border-box;
     padding-left: 2em;
+    display: block;
+    width: 50%
    }
 
