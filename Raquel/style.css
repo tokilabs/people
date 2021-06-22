@@ -14,6 +14,8 @@
 
 *{
     box-sizing: border-box;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 div.nome {
@@ -21,6 +23,7 @@ div.nome {
     flex: 2;
     flex-direction: column;
     width: 60%;
+    margin-bottom: 60px;
 }
 
 div.contato {
@@ -34,12 +37,11 @@ div.contato {
     width: 30%;
 }
 
-ul {
-    display:flex;
-    flex-direction: column wrap;
+#contato {
     list-style: none;
     padding: 0px;
-    margin: 0px;
+    margin-top: 50px;
+    margin-right: 160px;
 }
 
 header {
@@ -72,7 +74,9 @@ h1 {
     padding-bottom: 0.3em;
 }
 
-
+h2 {
+    padding-bottom: 2em;
+}
 
 h3 {
     font-family: aller-lt;
@@ -84,29 +88,39 @@ h3 {
 
 h5 {
     font-family: aller-Ltlt;
-    padding-top: 1em;
+    padding-top: 0em;
 }
 
 h4 {
-    padding-bottom: 1em;
+    padding-bottom: 0em;
     margin-bottom: 2em;
 }
 
 hr::after { 
     content: "";
-    display: inline;
+    display: inline block;
     position: absolute;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     border-left: 1px solid black;
     border-right: 1px solid black;
     width: 8px;
+    right: 0;
     height: 8px;
     justify-content: right;
 }
 
 p { 
     padding-bottom: 2em;
+}
+
+p.perfil {
+    padding-bottom: 0em;
+    padding-top: 1em;
+}
+
+p.perfilFinal {
+    padding-bottom: 3em
 }
 
 hr {
@@ -121,10 +135,11 @@ hr {
 
 section.colunaExperiencia { 
     display: block;
-    width: 50%;
+    width: 40%;
     float: left;
     height: 100%;
     padding-right: 2em;
+    padding-top: 3em;
 }
 
 .habilidade {
@@ -135,12 +150,17 @@ section.colunaHabilidades {
     border-left: 1px solid;/* Adiciona borda esquerda na div como ser fosse uma linha.*/
     box-sizing: border-box;
     padding-left: 2em;
+    padding-top: 3em;
     display: block;
-    width: 50%
+    width: 40%
    }
 
+.blank {
+    padding-top: 2em;
+}
+
 .line {
-    height: 2px;
+    height: 4px;
     color:#6f6f6e
 }
 
