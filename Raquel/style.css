@@ -88,6 +88,7 @@ h3 {
 
 h5 {
     font-family: aller-Ltlt;
+    font-size: 10pt;
     padding-top: 0em;
 }
 
@@ -96,9 +97,19 @@ h4 {
     margin-bottom: 2em;
 }
 
+h4.ref {
+    padding-bottom: 0em;
+    margin-bottom: 0em;
+}
+
+h5.cargo {
+    padding-top: 0em;
+    margin-top: 0.5em;
+}
+
 hr::after { 
     content: "";
-    display: inline block;
+    display: inline-block;
     position: absolute;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
@@ -108,6 +119,17 @@ hr::after {
     right: 0;
     height: 8px;
     justify-content: right;
+    margin-left: -4px;
+    padding-left: -8px;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #6f6f6e;
+    white-space: nowrap;
+    vertical-align: middle;
 }
 
 p { 
@@ -116,16 +138,11 @@ p {
 
 p.perfil {
     padding-bottom: 0em;
-    padding-top: 1em;
+    padding-top: 0em;
 }
 
 p.perfilFinal {
     padding-bottom: 3em
-}
-
-hr {
-    border: 0;
-    border-top: 1px solid #6f6f6e
 }
 
 .container {
@@ -135,7 +152,7 @@ hr {
 
 section.colunaExperiencia { 
     display: block;
-    width: 40%;
+    width: 45%;
     float: left;
     height: 100%;
     padding-right: 2em;
@@ -157,17 +174,4 @@ section.colunaHabilidades {
 
 .blank {
     padding-top: 2em;
-}
-
-.line {
-    height: 4px;
-    color:#6f6f6e
-}
-
-.square {
-    width: 16px;
-    height: 16px;
-    border: 2px solid #6f6f6e;
-    float: right;
-    margin-top: -8px;
 }
