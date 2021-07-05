@@ -1,0 +1,177 @@
+ @font-face {
+        font-family: aller;
+        src: url(fontes/Aller_rg.ttf);
+}
+@font-face {
+    font-family: aller-lt;
+    src: url(fontes/Aller_Lt.ttf);
+}
+
+@font-face {
+    font-family: aller-Ltlt;
+    src: url(fontes/Aller_LtIt.ttf);
+}
+
+*{
+    box-sizing: border-box;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+div.nome {
+    display:flex;
+    flex: 2;
+    flex-direction: column;
+    width: 60%;
+    margin-bottom: 60px;
+}
+
+div.contato {
+    display:flex;
+    flex: 2;
+    flex-direction: column wrap;
+    float: right;
+    justify-content: flex-end;
+    padding-top: 0px;
+    margin: 0px;
+    width: 30%;
+}
+
+#contato {
+    list-style: none;
+    padding: 0px;
+    margin-top: 50px;
+    margin-right: 160px;
+}
+
+header {
+    display: flex;
+    padding-top: 1em;
+    padding-left: 1em;
+}
+
+img {
+    width: 50px;
+    height: 40px;
+}
+
+#perfil {
+    display: block;
+    width: 98%;
+    justify-content: right;
+}
+
+body {
+    font-family: aller;
+    color:#6f6f6e;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+h1 { 
+    font-size: 40pt;
+    margin-bottom: 0em;
+    padding-bottom: 0.3em;
+}
+
+h2 {
+    padding-bottom: 2em;
+}
+
+h3 {
+    font-family: aller-lt;
+    font-size: 12pt;
+    margin-bottom: 3em;
+    margin-top: 0em;
+    padding-top: 0em;
+}
+
+h5 {
+    font-family: aller-Ltlt;
+    font-size: 10pt;
+    padding-top: 0em;
+}
+
+h4 {
+    padding-bottom: 0em;
+    margin-bottom: 2em;
+}
+
+h4.ref {
+    padding-bottom: 0em;
+    margin-bottom: 0em;
+}
+
+h5.cargo {
+    padding-top: 0em;
+    margin-top: 0.5em;
+}
+
+hr::after { 
+    content: "";
+    display: inline-block;
+    position: absolute;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    width: 8px;
+    right: 0;
+    height: 8px;
+    justify-content: right;
+    margin-left: -4px;
+    padding-left: -8px;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #6f6f6e;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+
+p { 
+    padding-bottom: 2em;
+}
+
+p.perfil {
+    padding-bottom: 0em;
+    padding-top: 0em;
+}
+
+p.perfilFinal {
+    padding-bottom: 3em
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+section.colunaExperiencia { 
+    display: block;
+    width: 45%;
+    float: left;
+    height: 100%;
+    padding-right: 2em;
+    padding-top: 3em;
+}
+
+.habilidade {
+    padding-bottom: 2em;
+}
+
+section.colunaHabilidades {
+    border-left: 1px solid;/* Adiciona borda esquerda na div como ser fosse uma linha.*/
+    box-sizing: border-box;
+    padding-left: 2em;
+    padding-top: 3em;
+    display: block;
+    width: 40%
+   }
+
+.blank {
+    padding-top: 2em;
+}
