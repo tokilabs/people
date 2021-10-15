@@ -2,7 +2,7 @@
 
 Um repositório de páginas de pessoas da Toki Network
 
-# Sua primeira missão!
+# Sua segunda missão!
 
 > Instruções para mentorados da Toki Labs
 
